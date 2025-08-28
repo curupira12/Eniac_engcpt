@@ -1,0 +1,32 @@
+#container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: 
+        "cabecalho cabecalho"
+        "menu conteudo"
+        "menu rodape";
+
+        grid-template-columns: 20% auto;
+        grid-template-rows: 120px 70vh 80px;
+}
+
+#cabecalho {
+    grid-area: cabecalho;
+    border: dashed 1px rgb(4, 16, 236);
+}
+
+#menu {
+    grid-area: menu;
+    border: dashed 1px rgb(4, 16, 236);
+}
+
+#conteudo {
+    grid-area: conteudo;
+    border: dashed 1px rgb(4, 16, 236);
+}
+
+#rodape {
+    grid-area: rodape;
+    border: dashed 1px rgb(4, 16, 236);
+}

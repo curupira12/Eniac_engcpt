@@ -1,0 +1,51 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+    <head>
+        <title>Formulario</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form name="form1" method="post" action="grava.jsp">
+            <label for="txtnome">Nome:</label>
+            <input type="text" id="txtnome" name="txtnome">
+            <br/><br/>
+
+            <label for="txtnumero">Número:</label>
+            <input type="number" id="txtnumero" name="txtnumero">
+            <br/><br/>
+
+            <label for="txtsenha">Senha:</label>
+            <input type="password" id="txtsenha" name="txtsenha">
+            <br/><br/>
+
+            <label for="mensagem">Mensagem:</label><br/>
+            <textarea id="mensagem" name="mensagem" rows="5" cols="40" maxlength="256"></textarea>
+            <br/><br/>
+
+            <label for="estado">Estado:</label>
+            <select id="estado" name="estado">
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="RS">Rio Grande do Sul</option>
+            </select>
+
+            <br/>
+
+            Pagamento:
+            <input type="radio" name="pgto" value="a" >á vista
+            <input type="radio" name="pgto" value="3">3x  
+            <input type="radio" name="pgto" value="6">6x
+
+            <br/>
+            Lugares para conhecer:
+            <input type="checkbox" name="lugar" value="Bahia">Bahia
+            <input type="checkbox" name="lugar" value="franca">França
+            <input type="checkbox" name="lugar" value="canada">canada
+            <br/>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </form>
+    </body>
+</html>

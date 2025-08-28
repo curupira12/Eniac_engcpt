@@ -1,0 +1,12 @@
+h1 {
+    color: darkblue ;
+    font-size : 24px ;
+    font-style: italic ;
+    font-family:Verdana, sans-serif ;
+    background-color: lightgray;
+    padding-left: 30px ;
+
+    border-left-color: black ;
+    border-left-style: solid ;
+    border-left-width: 15px ;   
+}
